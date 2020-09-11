@@ -3,6 +3,6 @@ describe("Operador toBeDefined",function(){
 		var texto = "Samuel";
 		var texto2;
 		expect(texto).toBeDefined();
-		expect(texto2).not.toBeDefined();
+		expect(texto2).not.toBeDefined();//Usar o toBeUndefined;
 	});
 });
